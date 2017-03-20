@@ -3,17 +3,14 @@
 #include <fmx.h>
 #pragma hdrstop
 
-#include "MainForm.h"
+#include "Frame_NewTable.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
-#pragma link "Frame_NewTable"
 #pragma resource "*.fmx"
-TForm2 *Form2;
+TFrame1 *Frame1;
 //---------------------------------------------------------------------------
-__fastcall TForm2::TForm2(TComponent* Owner)
-	: TForm(Owner)
+__fastcall TFrame1::TFrame1(TComponent* Owner)
+	: TFrame(Owner)
 {
 }
 //---------------------------------------------------------------------------
-
-

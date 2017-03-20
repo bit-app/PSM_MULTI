@@ -1,0 +1,22 @@
+object Frame1: TFrame1
+  Size.Width = 140.000000000000000000
+  Size.Height = 140.000000000000000000
+  Size.PlatformDefault = False
+  object Panel1: TPanel
+    Align = Client
+    Size.Width = 140.000000000000000000
+    Size.Height = 140.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'TestPanel'
+    TabOrder = 0
+    object Button1: TButton
+      Align = Client
+      Size.Width = 140.000000000000000000
+      Size.Height = 140.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'additembutton'
+      TabOrder = 2
+      Text = 'Button1'
+    end
+  end
+end
