@@ -44,6 +44,7 @@ __published:	// IDE-managed Components
 	TfrmTable *frmTable18;
 	TfrmTable *frmTable19;
 	TfrmTable *frmTable20;
+	TPanel *Panel2;
 private:	// User declarations
 	String DBPath;
 public:		// User declarations

@@ -15,9 +15,10 @@
 class TfrmTable : public TFrame
 {
 __published:	// IDE-managed Components
-	TEdit *edtAmounts;
 	TRectangle *Rectangle1;
 	TLabel *lblTableNo;
+	TRectangle *Rectangle2;
+	TSpeedButton *SpeedButton1;
 private:	// User declarations
 public:		// User declarations
 	__fastcall TfrmTable(TComponent* Owner);
