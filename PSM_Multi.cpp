@@ -7,6 +7,7 @@
 #pragma hdrstop
 #include <System.StartUpCopy.hpp>
 //---------------------------------------------------------------------------
+USEFORM("Sqlite_Class.cpp", Class_Sqlite);
 USEFORM("Main.cpp", Form3);
 //---------------------------------------------------------------------------
 extern "C" int FMXmain()
