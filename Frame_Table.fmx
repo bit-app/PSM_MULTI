@@ -1,0 +1,38 @@
+object frmTable: TfrmTable
+  Size.Width = 220.000000000000000000
+  Size.Height = 140.000000000000000000
+  Size.PlatformDefault = False
+  object edtAmounts: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 0
+    DisableFocusEffect = True
+    ReadOnly = True
+    Text = '30,000'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.HorzAlign = Center
+    Position.Y = 81.000000000000000000
+    Size.Width = 220.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family, Style, FontColor]
+    Caret.Color = claSlateblue
+  end
+  object Rectangle1: TRectangle
+    Align = Top
+    Fill.Color = claGainsboro
+    Size.Width = 220.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    XRadius = 10.000000000000000000
+    YRadius = 10.000000000000000000
+  end
+  object lblTableNo: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Size.Width = 220.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.HorzAlign = Center
+  end
+end

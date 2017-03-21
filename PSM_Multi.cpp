@@ -9,6 +9,7 @@
 //---------------------------------------------------------------------------
 USEFORM("Sqlite_Class.cpp", Class_Sqlite);
 USEFORM("Main.cpp", Form3);
+USEFORM("Frame_Table.cpp", frmTable); /* TFrame: File Type */
 //---------------------------------------------------------------------------
 extern "C" int FMXmain()
 {
