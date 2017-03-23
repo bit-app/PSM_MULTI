@@ -4,10 +4,12 @@ object frmTable: TfrmTable
   Size.PlatformDefault = False
   object Rectangle1: TRectangle
     Align = Top
-    Fill.Color = claDarkseagreen
+    Fill.Color = claGoldenrod
     Size.Width = 220.000000000000000000
     Size.Height = 81.000000000000000000
     Size.PlatformDefault = False
+    Stroke.Kind = None
+    Stroke.Dash = Dash
     XRadius = 10.000000000000000000
     YRadius = 10.000000000000000000
   end

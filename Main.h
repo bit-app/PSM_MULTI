@@ -16,6 +16,8 @@
 #include <FMX.Layouts.hpp>
 #include "Frame_Table.h"
 #include <FMX.Forms.hpp>
+#include <FMX.ImgList.hpp>
+#include <System.ImageList.hpp>
 //---------------------------------------------------------------------------
 class TForm3 : public TForm
 {
@@ -45,6 +47,8 @@ __published:	// IDE-managed Components
 	TfrmTable *frmTable19;
 	TfrmTable *frmTable20;
 	TPanel *Panel2;
+	TButton *Button1;
+	TImageList *ImageList1;
 private:	// User declarations
 	String DBPath;
 public:		// User declarations

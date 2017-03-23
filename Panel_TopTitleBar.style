@@ -1,0 +1,85 @@
+object TStyleContainer
+  object TLayout
+    StyleName = 'ColorButton1Style1'
+    Position.X = 448.000000000000000000
+    Position.Y = 280.000000000000000000
+    Size.Width = 265.000000000000000000
+    Size.Height = 169.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 0
+    object TButtonStyleObject
+      StyleName = 'background'
+      Align = Contents
+      SourceLookup = 'Windows 7style.png'
+      Size.Width = 265.000000000000000000
+      Size.Height = 169.000000000000000000
+      Size.PlatformDefault = False
+      HotLink = <
+        item
+          CapInsets.Left = 1.000000000000000000
+          CapInsets.Bottom = 1.000000000000000000
+          SourceRect.Left = 3.000000000000000000
+          SourceRect.Top = 251.000000000000000000
+          SourceRect.Right = 76.000000000000000000
+          SourceRect.Bottom = 274.000000000000000000
+        end>
+      FocusedLink = <
+        item
+          CapInsets.Left = 1.000000000000000000
+          CapInsets.Top = 1.000000000000000000
+          CapInsets.Right = 1.000000000000000000
+          CapInsets.Bottom = 1.000000000000000000
+          SourceRect.Left = 3.000000000000000000
+          SourceRect.Top = 197.000000000000000000
+          SourceRect.Right = 76.000000000000000000
+          SourceRect.Bottom = 220.000000000000000000
+        end>
+      NormalLink = <
+        item
+          CapInsets.Top = 1.000000000000000000
+          CapInsets.Right = 1.000000000000000000
+          CapInsets.Bottom = 1.000000000000000000
+          SourceRect.Left = 3.000000000000000000
+          SourceRect.Top = 170.000000000000000000
+          SourceRect.Right = 76.000000000000000000
+          SourceRect.Bottom = 193.000000000000000000
+        end>
+      PressedLink = <
+        item
+          CapInsets.Left = 1.000000000000000000
+          SourceRect.Left = 3.000000000000000000
+          SourceRect.Top = 224.000000000000000000
+          SourceRect.Right = 76.000000000000000000
+          SourceRect.Bottom = 247.000000000000000000
+        end>
+      TouchAnimation.Link = <>
+    end
+    object TRectangle
+      StyleName = 'fill'
+      Align = Client
+      Fill.Color = xFF1BC3C9
+      Locked = True
+      HitTest = False
+      Margins.Left = 6.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 6.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 253.000000000000000000
+      Size.Height = 159.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFF979797
+    end
+  end
+  object pnlTopMenu: TRectangle
+    StyleName = 'Panel_MainTop'
+    Fill.Color = claDimgray
+    HitTest = False
+    Position.X = -60.000000000000000000
+    Position.Y = 266.000000000000000000
+    Size.Width = 1280.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFF979797
+  end
+end

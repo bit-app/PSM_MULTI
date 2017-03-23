@@ -1,0 +1,13 @@
+object TStyleContainer
+  object TRectangle
+    StyleName = 'Panel1Style1'
+    Fill.Color = xFFC8FD72
+    HitTest = False
+    Position.X = 520.000000000000000000
+    Position.Y = 327.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFFC8FD72
+  end
+end
